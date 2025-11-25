@@ -7,7 +7,7 @@ int main()
   int altitude;
   float speed;
 
-  file= fopen("C:\\Users\\Student\\Desktop\\25024001\\File in C\\Flight Data\\data.txt", "r");
+  file= fopen("C:\\Users\\Student\\Desktop\\25024002\\File in C\\Flight Data\\data.txt", "r");
 
   if(file==NULL)
     printf("Error");
@@ -24,4 +24,5 @@ int main()
   fclose(file);
   getch();
   return 0;
+
 }
